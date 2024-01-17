@@ -188,7 +188,7 @@
             </div>
         </div>
     </section>
-    <div class=rating>
+    <!-- <div class=rating>
         <div class=container>
             <ul class="rating_list d-flex flex-wrap">
                 <li class="rating_list-item col-12 col-sm-6 col-xl-3" data-order=1 data-aos=zoom-in>
@@ -255,7 +255,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
     <section class="gallery section">
         <div class=container>
@@ -310,12 +310,12 @@
                             </span>
                         </span>
                         <div class="main d-flex flex-column">
-                            <h4 class=main_title>Phone</h4><a class=link href=tel:+1234567890>(329) 580-7077</a> <a class=link href=tel:+1234567890>(650) 382-5020</a>
+                            <h4 class=main_title>Phone</h4><a class=link href="wa.me/+6285100990139">6285100990139</a>
                         </div>
                     </li>
                     <li class="contacts_info-list_item col-md-6 d-flex align-items-center" data-order=2 data-aos=fade-up><span class="theme-element theme-element--light media"><i class="icon-email icon"></i></span>
                         <div class="main d-flex flex-column">
-                            <h4 class=main_title>Email</h4><a class=link href=mailto:example@domain.com>contact@example.com</a> <a class=link href=mailto:example@domain.com>contact@example.com</a>
+                            <h4 class=main_title>Email</h4><a class=link href="#"></a>
                         </div>
                     </li>
                     <li class="contacts_info-list_item col-md-6 d-flex align-items-center" data-order=3 data-aos=fade-up><span class="theme-element theme-element--light media"><i class="icon-location icon"></i></span>
