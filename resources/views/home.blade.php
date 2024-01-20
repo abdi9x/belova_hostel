@@ -256,7 +256,134 @@
             </ul>
         </div>
     </div> -->
-
+    <section class="reviews section">
+        <div class="container d-lg-flex">
+            <div class=media>
+                <div class="reviews_slider reviews_slider--media">
+                    <div class=swiper-wrapper>
+                        <div class=swiper-slide>
+                            <picture>
+                                <source data-srcset=img/index/slide01.jpg srcset=img/index/slide01.jpg><img class=lazy data-src=img/index/slide01.jpg src=img/index/slide01.jpg alt=media>
+                            </picture>
+                        </div>
+                        <div class=swiper-slide>
+                            <picture>
+                                <source data-srcset=img/index/slide02.jpg srcset=img/index/slide02.jpg><img class=lazy data-src=img/index/slide02.jpg src=img/index/slide02.jpg alt=media>
+                            </picture>
+                        </div>
+                        <div class=swiper-slide>
+                            <picture>
+                                <source data-srcset=img/index/slide03.jpg srcset=img/index/slide03.jpg><img class=lazy data-src=img/index/slide03.jpg src=img/index/slide03.jpg alt=media>
+                            </picture>
+                        </div>
+                        <div class=swiper-slide>
+                            <picture>
+                                <source data-srcset=img/index/slide04.jpg srcset=img/index/slide04.jpg><img class=lazy data-src=img/index/slide04.jpg src=img/index/slide04.jpg alt=media>
+                            </picture>
+                        </div>
+                        <div class=swiper-slide>
+                            <picture>
+                                <source data-srcset=img/index/slide05.jpg srcset=img/index/slide05.jpg><img class=lazy data-src=img/index/slide05.jpg src=img/index/slide05.jpg alt=media>
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main col-lg-6 d-lg-flex flex-column justify-content-between">
+                <h2 class=reviews_header data-aos=fade-down>Testimoni</h2>
+                <div class="reviews_slider reviews_slider--main">
+                    <div class=swiper-wrapper>
+                        <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
+                            <div class="reviews_slider-slide_stars d-flex align-items-center"><i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i></div><span class=reviews_slider-slide_date><span class=h4>Date of stay:</span> July 2021</span>
+                            <div class=reviews_slider-slide_main>
+                                <h4 class=title>Very cozy room close to everything</h4>
+                                <p class=text>Consequat interdum varius sit amet mattis vulputate enim nulla.
+                                    Posuere morbi leo urna molestie at elementum eu facilisis sed. Diam phasellus
+                                    vestibulum lorem sed risus ultricies tristique.</p>
+                            </div>
+                            <span class="reviews_slider-slide_guest d-flex align-items-center">
+                                <span class=avatar>
+                                    <picture>
+                                        <source data-srcset=img/index/avatar01.jpg srcset=img/index/avatar01.jpg>
+                                        <img class=lazy data-src=img/index/avatar01.jpg src=img/index/avatar01.jpg alt=media>
+                                    </picture>
+                                </span><span class="name h6">Betty Randal</span>
+                            </span>
+                        </div>
+                        <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
+                            <div class="reviews_slider-slide_stars d-flex align-items-center"><i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i></div><span class=reviews_slider-slide_date><span class=h4>Date of stay:</span> October 2021</span>
+                            <div class=reviews_slider-slide_main>
+                                <h4 class=title>Consequat interdum varius sit varius</h4>
+                                <p class=text>Consequat interdum varius sit amet mattis vulputate enim nulla.
+                                    Posuere morbi leo urna molestie at elementum eu facilisis sed. Diam phasellus
+                                    vestibulum lorem sed risus ultricies tristique.</p>
+                            </div>
+                            <span class="reviews_slider-slide_guest d-flex align-items-center">
+                                <span class=avatar>
+                                    <picture>
+                                        <source data-srcset=img/index/avatar02.jpg srcset=img/index/avatar02.jpg>
+                                        <img class=lazy data-src=img/index/avatar02.jpg src=img/index/avatar02.jpg alt=media>
+                                    </picture>
+                                </span><span class="name h6">Max Jones</span>
+                            </span>
+                        </div>
+                        <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
+                            <div class="reviews_slider-slide_stars d-flex align-items-center"><i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i></div><span class=reviews_slider-slide_date><span class=h4>Date of stay:</span> December 2021</span>
+                            <div class=reviews_slider-slide_main>
+                                <h4 class=title>Diam sit molestie at elementum eu</h4>
+                                <p class=text>Consequat interdum varius sit amet mattis vulputate enim nulla.
+                                    Posuere morbi leo urna molestie at elementum eu facilisis sed. Diam phasellus
+                                    vestibulum lorem sed risus ultricies tristique.</p>
+                            </div>
+                            <span class="reviews_slider-slide_guest d-flex align-items-center">
+                                <span class=avatar>
+                                    <picture>
+                                        <source data-srcset=img/index/avatar03.jpg srcset=img/index/avatar03.jpg>
+                                        <img class=lazy data-src=img/index/avatar03.jpg src=img/index/avatar03.jpg alt=media>
+                                    </picture>
+                                </span><span class="name h6">Kate Walker</span>
+                            </span>
+                        </div>
+                        <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
+                            <div class="reviews_slider-slide_stars d-flex align-items-center"><i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i></div><span class=reviews_slider-slide_date><span class=h4>Date of stay:</span> April 2021</span>
+                            <div class=reviews_slider-slide_main>
+                                <h4 class=title>Elementum eu facilisis at elementum</h4>
+                                <p class=text>Consequat interdum varius sit amet mattis vulputate enim nulla.
+                                    Posuere morbi leo urna molestie at elementum eu facilisis sed. Diam phasellus
+                                    vestibulum lorem sed risus ultricies tristique.</p>
+                            </div>
+                            <span class="reviews_slider-slide_guest d-flex align-items-center">
+                                <span class=avatar>
+                                    <picture>
+                                        <source data-srcset=img/index/avatar04.jpg srcset=img/index/avatar04.jpg>
+                                        <img class=lazy data-src=img/index/avatar04.jpg src=img/index/avatar04.jpg alt=media>
+                                    </picture>
+                                </span><span class="name h6">Panam Palmer</span>
+                            </span>
+                        </div>
+                        <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
+                            <div class="reviews_slider-slide_stars d-flex align-items-center"><i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i></div><span class=reviews_slider-slide_date><span class=h4>Date of stay:</span> May 2021</span>
+                            <div class=reviews_slider-slide_main>
+                                <h4 class=title>Ultricies eu ultricies tristique facilisis</h4>
+                                <p class=text>Consequat interdum varius sit amet mattis vulputate enim nulla.
+                                    Posuere morbi leo urna molestie at elementum eu facilisis sed. Diam phasellus
+                                    vestibulum lorem sed risus ultricies tristique.</p>
+                            </div>
+                            <span class="reviews_slider-slide_guest d-flex align-items-center">
+                                <span class=avatar>
+                                    <picture>
+                                        <source data-srcset=img/index/avatar05.jpg srcset=img/index/avatar05.jpg>
+                                        <img class=lazy data-src=img/index/avatar05.jpg src=img/index/avatar05.jpg alt=media>
+                                    </picture>
+                                </span><span class="name h6">Lisa Adams</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-controls d-flex align-items-center"><a class="swiper-button-prev d-inline-flex theme-element theme-element--light" href=#><i class="icon-arrow_left icon"></i> </a><a class="swiper-button-next d-inline-flex theme-element theme-element--light" href=#><i class="icon-arrow_right icon"></i></a></div>
+            </div>
+        </div>
+    </section>
     <section class="gallery section">
         <div class=container>
             <div class="gallery_header d-sm-flex justify-content-between align-items-center">
