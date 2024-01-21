@@ -19,9 +19,9 @@ class PagesController extends Controller
         $images = Room_category_image::all();
         $rooms = Room_category::with('images')->with('pricelist')->get();
         $response = Http::get('https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJd1KpcLQVei4Rvxj3Akp5Ryc&key=AIzaSyBo8usZVHvQjNICzLaaIapy7y4NcQqzwxI&language=ID');
-        $data = json_decode($response->body(), true);
-        return response()->json($data);
-        return view('home')->with('rooms', $rooms)->with('images', $images);
+        $google = json_decode($response->body());
+        // return response()->json($google);
+        return view('home')->with('rooms', $rooms)->with('images', $images)->with('google', $google);
     }
 
     /**

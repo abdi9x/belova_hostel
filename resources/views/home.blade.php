@@ -261,31 +261,14 @@
             <div class=media>
                 <div class="reviews_slider reviews_slider--media">
                     <div class=swiper-wrapper>
+                        @foreach($google->result->reviews as $val)
                         <div class=swiper-slide>
                             <picture>
-                                <source data-srcset=img/index/slide01.jpg srcset=img/index/slide01.jpg><img class=lazy data-src=img/index/slide01.jpg src=img/index/slide01.jpg alt=media>
+                                <source data-srcset="{{asset('img/index/testinomy.jpg')}}" srcset="{{asset('img/index/testinomy.jpg')}}">
+                                <img class=lazy data-src="{{asset('img/index/testinomy.jpg')}}" src="{{asset('img/index/testinomy.jpg')}}" alt=media>
                             </picture>
                         </div>
-                        <div class=swiper-slide>
-                            <picture>
-                                <source data-srcset=img/index/slide02.jpg srcset=img/index/slide02.jpg><img class=lazy data-src=img/index/slide02.jpg src=img/index/slide02.jpg alt=media>
-                            </picture>
-                        </div>
-                        <div class=swiper-slide>
-                            <picture>
-                                <source data-srcset=img/index/slide03.jpg srcset=img/index/slide03.jpg><img class=lazy data-src=img/index/slide03.jpg src=img/index/slide03.jpg alt=media>
-                            </picture>
-                        </div>
-                        <div class=swiper-slide>
-                            <picture>
-                                <source data-srcset=img/index/slide04.jpg srcset=img/index/slide04.jpg><img class=lazy data-src=img/index/slide04.jpg src=img/index/slide04.jpg alt=media>
-                            </picture>
-                        </div>
-                        <div class=swiper-slide>
-                            <picture>
-                                <source data-srcset=img/index/slide05.jpg srcset=img/index/slide05.jpg><img class=lazy data-src=img/index/slide05.jpg src=img/index/slide05.jpg alt=media>
-                            </picture>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
@@ -293,24 +276,34 @@
                 <h2 class=reviews_header data-aos=fade-down>Testimoni</h2>
                 <div class="reviews_slider reviews_slider--main">
                     <div class=swiper-wrapper>
+                        @foreach($google->result->reviews as $val)
+                        @if(floatval($val->rating) >= 4)
                         <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
-                            <div class="reviews_slider-slide_stars d-flex align-items-center"><i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i></div><span class=reviews_slider-slide_date><span class=h4>Date of stay:</span> July 2021</span>
+                            <div class="reviews_slider-slide_stars d-flex align-items-center">
+                                <i class="icon-star icon"></i>
+                                <i class="icon-star icon"></i>
+                                <i class="icon-star icon"></i>
+                                <i class="icon-star icon"></i>
+                                <i class="icon-star icon"></i>
+                            </div>
+                            <span class=reviews_slider-slide_date><span class=h4>Date:</span> {{$val->relative_time_description}}</span>
                             <div class=reviews_slider-slide_main>
-                                <h4 class=title>Very cozy room close to everything</h4>
-                                <p class=text>Consequat interdum varius sit amet mattis vulputate enim nulla.
-                                    Posuere morbi leo urna molestie at elementum eu facilisis sed. Diam phasellus
-                                    vestibulum lorem sed risus ultricies tristique.</p>
+                                <h4 class="title">{{$val->author_name}}</h4>
+                                <p class="text">{{$val->text}}</p>
                             </div>
                             <span class="reviews_slider-slide_guest d-flex align-items-center">
-                                <span class=avatar>
+                                <!-- <span class=avatar>
                                     <picture>
                                         <source data-srcset=img/index/avatar01.jpg srcset=img/index/avatar01.jpg>
                                         <img class=lazy data-src=img/index/avatar01.jpg src=img/index/avatar01.jpg alt=media>
                                     </picture>
-                                </span><span class="name h6">Betty Randal</span>
+                                </span> -->
+                                <span class="name h6">Google Map Review</span>
                             </span>
                         </div>
-                        <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
+                        @endif
+                        @endforeach
+                        <!-- <div class="reviews_slider-slide d-flex flex-column justify-content-between swiper-slide">
                             <div class="reviews_slider-slide_stars d-flex align-items-center"><i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i> <i class="icon-star icon"></i></div><span class=reviews_slider-slide_date><span class=h4>Date of stay:</span> October 2021</span>
                             <div class=reviews_slider-slide_main>
                                 <h4 class=title>Consequat interdum varius sit varius</h4>
@@ -377,7 +370,7 @@
                                     </picture>
                                 </span><span class="name h6">Lisa Adams</span>
                             </span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="swiper-controls d-flex align-items-center"><a class="swiper-button-prev d-inline-flex theme-element theme-element--light" href=#><i class="icon-arrow_left icon"></i> </a><a class="swiper-button-next d-inline-flex theme-element theme-element--light" href=#><i class="icon-arrow_right icon"></i></a></div>
