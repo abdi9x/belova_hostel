@@ -52,7 +52,7 @@ function thousandsCurrencyFormat($n, $precision = 2)
     <div class="room section">
         <div class=container>
             <div class="room_main d-lg-flex flex-wrap align-items-start">
-                <div class="room_main-slider col-12 d-lg-flex">
+                <div class="room_main-slider col-12 d-lg-flex" data-aos="fade-up">
                     <div class="room_main-slider_view col-lg-8">
                         <div class=swiper-wrapper>
                             @if(count($room->images) > 0)
@@ -75,7 +75,7 @@ function thousandsCurrencyFormat($n, $precision = 2)
                         </div>
                         <div class="swiper-controls d-flex align-items-center justify-content-between"><a class="swiper-button-prev d-inline-flex align-items-center justify-content-center" href=#><i class="icon-arrow_left icon"></i> </a><a class="swiper-button-next d-inline-flex align-items-center justify-content-center" href=#><i class="icon-arrow_right icon"></i></a></div>
                     </div>
-                    <div class=room_main-slider_thumbs>
+                    <div class="room_main-slider_thumbs" data-aos="fade-up">
                         <div class=swiper-wrapper>
                             @if(count($room->images) > 0)
                             @foreach($room->images as $image)
@@ -98,11 +98,11 @@ function thousandsCurrencyFormat($n, $precision = 2)
                     </div>
                 </div>
                 <div class="room_main-info col-lg-8">
-                    <div class="amenities d-flex flex-wrap align-items-center"><span class="amenities_item d-inline-flex align-items-center"><i class="icon-user icon"></i> 1 Orang</span><span class="amenities_item d-inline-flex align-items-center"><i class="icon-twin_bed icon"></i> 1 Single Bed </span></div>
-                    <div class=description>
+                    <div data-aos="fade-up" class="amenities d-flex flex-wrap align-items-center"><span class="amenities_item d-inline-flex align-items-center"><i class="icon-user icon"></i> 1 Orang</span><span class="amenities_item d-inline-flex align-items-center"><i class="icon-twin_bed icon"></i> 1 Single Bed </span></div>
+                    <div class=description data-aos="fade-up">
                         <p class=description_text>Informasi: {{$room->notes}}</p>
                     </div>
-                    <section class=facilities>
+                    <section class=facilities data-aos="fade-up">
                         <h4 class=facilities_header>Fasilitas Kamar</h4>
                         <div class="facilities_list d-sm-flex flex-wrap">
                             <div class=facilities_list-block>
@@ -127,7 +127,7 @@ function thousandsCurrencyFormat($n, $precision = 2)
                             </div>
                         </div>
                     </section>
-                    <section class=rules>
+                    <section class=rules data-aos="fade-up">
                         <h4 class=rules_header>Peraturan</h4>
                         <div class="rules_list d-md-flex flex-lg-wrap">
                             <div class=rules_list-block>
@@ -158,13 +158,13 @@ function thousandsCurrencyFormat($n, $precision = 2)
                     <div class=room_main-cards_card>
                         @if(count($room->pricelist)>0)
                         @foreach($room->pricelist as $price)
-                        <span class=pricing><span class="pricing_price h4"><i class="mdi mdi-circle icon"></i> <?= 'Rp ' . thousandsCurrencyFormat($price->price) ?></span> /{{$price->jangka_waktu.' '.$price->jangka_sewa}} </span>
+                        <span data-aos="fade-up" class=pricing><span class="pricing_price h4"><i class="mdi mdi-circle icon"></i> <?= 'Rp ' . thousandsCurrencyFormat($price->price) ?></span> /{{$price->jangka_waktu.' '.$price->jangka_sewa}} </span>
                         @endforeach
                         @else
-                        <span class=pricing><span class="pricing_price h4"><i class="mdi mdi-circle icon"></i> Call Us</span></span>
+                        <span data-aos="fade-up" class=pricing><span class="pricing_price h4"><i class="mdi mdi-circle icon"></i> Call Us</span></span>
                         @endif
                     </div>
-                    <div class="room_main-cards_card accent">
+                    <div class="room_main-cards_card accent" data-aos="fade-up">
                         <h3 class=title>Stay Longer, Save More</h3>
                         <p class=text>It's simple: the longer you stay, the more you save!</p>
                         <div class=content>

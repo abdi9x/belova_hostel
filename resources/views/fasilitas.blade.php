@@ -20,7 +20,7 @@
                     <h2 class=about_benefits-header_title data-aos=fade-up>Fasilitas Umum</h2>
                     <p class=about_benefits-header_text data-aos=fade-up>Fasilitas Umum yang bisa dipakai bersama maupun fasilitas masing masing kamar</p>
                 </div>
-                <ul class="about_benefits-list d-md-flex">
+                <ul class="about_benefits-list d-md-flex" data-aos="fade-up">
                     <li class=about_benefits-list_item>
                     <span class="number mdi mdi-wifi h1 d-flex align-items-center"></span>
                         <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value="{{$counts}}">0</span> -->
@@ -37,7 +37,8 @@
                         <p class=number-label>CCTV 24/7 tersebar di setiap sudut</p>
                     </li>
                 </ul>
-                <ul class="about_benefits-list d-md-flex">
+                <br>
+                <ul class="about_benefits-list d-md-flex" data-aos="fade-up">
                     <li class=about_benefits-list_item>
                     <span class="number mdi mdi-karate h1 d-flex align-items-center"></span>
                         <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value="{{$counts}}">0</span> -->
