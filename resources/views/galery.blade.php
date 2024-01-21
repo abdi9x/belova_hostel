@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 <main>
-    <header class=page>
+    <header class="page bcg">
         <div class=container>
             <ul class="breadcrumbs d-flex flex-wrap align-content-center">
                 <li class=list-item><a class=link href="{{route('home')}}">Home</a></li>
