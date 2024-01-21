@@ -17,18 +17,41 @@
         <section class="about_benefits section" style="margin-bottom: 0px;">
             <div class=container>
                 <div class="about_benefits-header d-md-flex align-items-center justify-content-between">
-                    <h2 class=about_benefits-header_title data-aos=fade-up>Fasilitas Umum & Kamar</h2>
+                    <h2 class=about_benefits-header_title data-aos=fade-up>Fasilitas Umum</h2>
                     <p class=about_benefits-header_text data-aos=fade-up>Fasilitas Umum yang bisa dipakai bersama maupun fasilitas masing masing kamar</p>
                 </div>
                 <ul class="about_benefits-list d-md-flex">
-                    <li class=about_benefits-list_item><span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value="{{$counts}}">0</span>
-                        <p class=number-label>Jumlah Kamar</p>
+                    <li class=about_benefits-list_item>
+                    <span class="number mdi mdi-wifi h1 d-flex align-items-center"></span>
+                        <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value="{{$counts}}">0</span> -->
+                        <p class=number-label>Wifi dedicated dengan kecepatan tinggi</p>
                     </li>
-                    <li class=about_benefits-list_item><span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value=10>0</span>
-                        <p class=number-label>Dapur Umum & Ruang Tamu</p>
+                    <li class=about_benefits-list_item>
+                    <span class="number mdi mdi-alpha-p-circle-outline h1 d-flex align-items-center"></span>
+                        <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value=10>0</span> -->
+                        <p class=number-label>Parkir luas Terpisah antara mobil & Motor</p>
                     </li>
-                    <li class=about_benefits-list_item><span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value=5>0</span>
-                        <p class=number-label>Fasilitas Umum Lainnya</p>
+                    <li class=about_benefits-list_item>
+                    <span class="number mdi mdi-cctv h1 d-flex align-items-center"></span>
+                        <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value=5>0</span> -->
+                        <p class=number-label>CCTV 24/7 tersebar di setiap sudut</p>
+                    </li>
+                </ul>
+                <ul class="about_benefits-list d-md-flex">
+                    <li class=about_benefits-list_item>
+                    <span class="number mdi mdi-karate h1 d-flex align-items-center"></span>
+                        <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value="{{$counts}}">0</span> -->
+                        <p class=number-label>Security 24jam serta petugas kami yang selalu on-site</p>
+                    </li>
+                    <li class=about_benefits-list_item>
+                    <span class="number mdi mdi-stove h1 d-flex align-items-center"></span>
+                        <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value=10>0</span> -->
+                        <p class=number-label>Dapur Umum yang tersedia di setiap lantai</p>
+                    </li>
+                    <li class=about_benefits-list_item>
+                    <span class="number mdi mdi-boombox h1 d-flex align-items-center"></span>
+                        <!-- <span class="countNum number h1 d-flex align-items-center" data-suffix=+ data-value=5>0</span> -->
+                        <p class=number-label>Rooftop yang luas dan nyaman bisa anda manfaatkan untuk sekedar menikmati kopi di malam hari</p>
                     </li>
                 </ul>
                 <!-- <div class=about_benefits-video data-aos=fade-in>
