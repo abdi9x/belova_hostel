@@ -6,16 +6,16 @@
 <main>
     <header class="page bcg">
         <div class=container>
-            <ul class="breadcrumbs d-flex flex-wrap align-content-center">
+            <ul class="breadcrumbs d-flex flex-wrap align-content-center" data-aos="fade-right">
                 <li class=list-item><a class=link href="{{route('home')}}">Home</a></li>
                 <li class=list-item><a class=link href=#>Galeri</a></li>
             </ul>
-            <h1 class=page_title>Galeri Foto</h1>
+            <h1 class=page_title data-aos="fade-right">Galeri Foto</h1>
         </div>
     </header>
     <main>
         <div class="gallery section">
-            <div class=container>
+            <div class=container data-aos="fade-up">
                 <ul class="gallery_filters d-flex flex-wrap align-items-baseline">
                     <li class=list-item><a data-target=all class="gallery_filters-filter underlined underlined--accent active" href=#>All</a></li>
                     <li class=list-item><a data-target=room class="gallery_filters-filter underlined underlined--accent" href=#>Kamar</a></li>

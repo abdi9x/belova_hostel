@@ -6,11 +6,11 @@
 <main>
     <header class="page bcg">
         <div class=container>
-            <ul class="breadcrumbs d-flex flex-wrap align-content-center">
+            <ul class="breadcrumbs d-flex flex-wrap align-content-center" data-aos="fade-right">
                 <li class=list-item><a class=link href="{{route('home')}}">Home</a></li>
                 <li class=list-item><a class=link href=#>Fasilitas</a></li>
             </ul>
-            <h1 class="page_title">Fasilitas</h1>
+            <h1 class="page_title" data-aos="fade-right">Fasilitas</h1>
         </div>
     </header>
     <main>
